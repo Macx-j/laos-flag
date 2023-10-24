@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .laos-flag {
+            width: 300px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #000;
+        }
+
+        .stripe {
+            flex: 1;
+        }
+
+        .blue-stripe {
+            background-color: #0dbb95;
+        }
+
+        .white-stripe {
+            background-color: #340ce9;
+            position: relative;
+        }
+
+        .red-stripe {
+            background-color: #EF4135;
+        }
+
+        .circle {
+            width: 60px;
+            height: 50px;
+            background-color: #fafafa;
+            border-radius: 600%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .mount {
+            width: 25px;
+            height: 25px;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <title>Flag of Laos</title>
+</head>
+<body>
+    <div class="laos-flag">
+        <div class="stripe blue-stripe"></div>
+        <div class="stripe white-stripe">
+            <div class="circle">
+                <div class="mount"></div>
+            </div>
+        </div>
+        <div class="stripe red-stripe"></div>
+    </div>
+</body>
+</html>
